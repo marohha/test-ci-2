@@ -16,7 +16,7 @@ export default function charactersCheck(characters) {
         if (charactersSort[i].health < 15) {
             characterStatus.push('critical');
         };
-    }
+    };
 
     return characterStatus;
 };
